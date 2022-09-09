@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import Herologo from "../../Assets/DSC-IIITA-Light-Vertical.png";
+import Herologo from "../../Assets/CDG-Nagpur-Logo.png";
 import ExploreIcon from "../../Assets/chevrons-down.svg";
 
 import HeroLeft from "./HeroLeft";
@@ -27,7 +27,8 @@ const move = () => {
 function Hero() {
 	return (
 		<section className="hero-section">
-			<HeroLeft />
+
+			{/* <HeroLeft /> */}
 			<div className="hero-section-center">
 				<div className="hero-section-main">
 					<img src={Herologo} alt="Hero Logo" />
@@ -46,8 +47,8 @@ function Hero() {
                     <img src={ExploreIcon} alt="Explore"/> */}
 					<img onClick={move} src={ExploreIcon} alt="arrow" color="white" className="animatedArrow" />
 				</div>
-			</div>
-			<HeroRight />
+			</div> 
+			{/* <HeroRight /> */}
 		</section>
 	);
 }
