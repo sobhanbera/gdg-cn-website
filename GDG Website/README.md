@@ -1,4 +1,4 @@
-# GDSC IIIT A Community Website
+# A Community Website
 
 ## Contribution Guidelines :key:
 
@@ -23,7 +23,7 @@ This Project includes a tech stack of Front end and Back end Development.:cop:
 
 ## To run locally
 ```bash
-$ git clone https://github.com/Elevate-Lab/GDSC-IIIT-A-Community-Website.git
+$ git clone <URL>
 $ cd backend
 $ npm i
 $ node app.js
