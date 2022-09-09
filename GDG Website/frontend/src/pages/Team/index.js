@@ -35,6 +35,12 @@ const FieldPages = [
 ];
 
 function Team() {
+	return (
+	<p>	Comming Soon</p>
+	);
+}
+{/*
+function Team() {
 	const [showField, setshowField] = useState("CoreTeam");
 	const [showFieldIdx, setshowFieldIdx] = useState(0);
 	const [admin, setAdmin] = useState(false);
@@ -84,7 +90,9 @@ function Team() {
 	};
 	return (
 		<div>
-			{/* <div>
+		/////////////////////////////////////////////////////////////////////////
+		*/
+			/* <div>
                 <Slider autoplay {...settings}>
                     {
                         slider_img.map((item, index) => (
@@ -110,7 +118,10 @@ function Team() {
                     <SwiperSlide>Slide 8</SwiperSlide>
                     <SwiperSlide>Slide 9</SwiperSlide>
                 </Swiper>
-            </div> */}
+            </div> */
+			/*
+		////////////////////////////////////////////////////////////
+
 			<section className="Team_section">
 				<Headings
 					LargeHeading="Our Team"
@@ -159,7 +170,8 @@ function Team() {
 			</section>
 		
 		</div>
-	);
-}
+		);
+	}
+*/}
 
 export default Team;

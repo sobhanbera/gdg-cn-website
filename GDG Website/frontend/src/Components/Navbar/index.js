@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 // import { AppBar, Toolbar, Typography } from '@material-ui/core'
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
-import Navbar_logo from "../../Assets/DSC-IIITA-Light-Horizontal.png";
+import Navbar_logo from "../../Assets/CDG-Nagpur-Logo_2.png"
 
-const navbarContent = ["Home", "Events", "Team", "Projects", "Blogs"];
+const navbarContent = ["Home", "Events", "Team"];
 
 function Navbar() {
 	const [width, setWidth] = useState(window.innerWidth);

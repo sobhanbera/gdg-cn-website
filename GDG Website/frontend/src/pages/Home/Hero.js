@@ -1,7 +1,8 @@
 import React from "react";
 import "./Hero.css";
-import Herologo from "../../Assets/CDG-Nagpur-Logo.png";
+// import Herologo from "../../Assets/CDG-Nagpur-Logo.png";
 import ExploreIcon from "../../Assets/chevrons-down.svg";
+import logosvg from "../../Assets/CDG-Nagpur-Logo_1.png"
 
 import HeroLeft from "./HeroLeft";
 import HeroRight from "./HeroRight";
@@ -28,11 +29,12 @@ function Hero() {
 	return (
 		<section className="hero-section">
 
-			{/* <HeroLeft /> */}
+			<HeroLeft />
 			<div className="hero-section-center">
 				<div className="hero-section-main">
-					<img src={Herologo} alt="Hero Logo" />
-					<div className="hero-join-us">
+			
+					<img src={logosvg} alt="Hero Logo" />
+					{/* <div className="hero-join-us" style={{margin:"-100px"}}>
 						<a
 							href="https://gdsc.community.dev/indian-institute-of-information-technology-allahabad-prayagraj/"
 							target="_blank"
@@ -40,7 +42,7 @@ function Hero() {
 						>
 							Join Us
 						</a>
-					</div>
+					</div> */}
 				</div>
 				<div class="hero-explore">
 					{/* <p>Explore</p>
@@ -48,7 +50,7 @@ function Hero() {
 					<img onClick={move} src={ExploreIcon} alt="arrow" color="white" className="animatedArrow" />
 				</div>
 			</div> 
-			{/* <HeroRight /> */}
+			<HeroRight />
 		</section>
 	);
 }

@@ -41,10 +41,7 @@ function About() {
 				<div>
 					<p className="Abt_Heading">What's GDSC?</p>
 					<p className="Abt_Content">
-						Google collaborates with university students who are passionate about growing developer
-						communities. GDSC is an Organisation for university students who want to bring about a change
-						through technology. We are focused upon building technical and non-technical skills, which would
-						help students to build a better community.<br></br>
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed sequi placeat dolores officiis in. Dolore tempora assumenda unde at fugiat ut similique alias blanditiis rerum magnam voluptas, mollitia debitis sed sunt iste, optio dolores expedita eligendi obcaecati beatae tenetur dignissimos.<br></br>
 						<br></br># Lets Learn, Grow and Innovate together.
 					</p>
 					<button>
@@ -58,11 +55,9 @@ function About() {
 			<div className="About About_DSC_IIITA">
 				<img src={dsciiita} alt="dsciiita.jpg" target="_blank" />
 				<div>
-					<p className="Abt_Heading">About GDSC IIITA</p>
+					<p className="Abt_Heading">About GDG Nagpur</p>
 					<p className="Abt_Content">
-						GDSC's primary aim lies in empowering students with development skills and other technical
-						abilities for growth and advancement. We believe in innovation and evolution. For students to grow
-						their skills to tackle problems and to bring about change. <br></br>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eos laudantium aliquid suscipit vel quae exercitationem molestiae, accusantium modi neque voluptates, quis nisi debitis sit laborum, asperiores impedit. Eum, veniam.<br></br>
 						<br></br>
 						The club is intended as a space for students to try out new ideas and collaborate to solve mobile,
 						web development problems and as well as discover new heights in AI, ML, Designing and much more.
@@ -76,7 +71,7 @@ function About() {
 			</div>
 
 			<div className="What_we_do">
-				<p className="What_we_do_heading">What GDSC IIITA does?</p>
+				<p className="What_we_do_heading">What GDG Nagpur does?</p>
 				<div className="What_we_do_cards">
 					<div className="What_we_do_card1">
 						<div className="What_we_do_card_img">

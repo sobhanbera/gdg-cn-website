@@ -75,9 +75,9 @@ loading?
           <Route path="/projects" exact>
             <Projects />
           </Route>
-          <Route path="/blogs" exact>
+          {/* <Route path="/blogs" exact>
             <Blogs />
-          </Route>
+          </Route> */}
           <Route path="/contact">
             <Contact />
           </Route>
