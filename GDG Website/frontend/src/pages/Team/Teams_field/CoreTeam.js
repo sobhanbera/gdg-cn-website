@@ -41,7 +41,7 @@ function CoreTeam() {
 
 				<a href='github.com' className="fa" aria-hidden="true" target="_blank">
 					{" "}     
-					{/* <Github className="fa" /> */}
+					{/* <Github className="fa" /> */}    
 				</a>
 
 				<a href='linkdin.com' className="fa fa-linkedin" aria-hidden="true" target="_blank"></a>
