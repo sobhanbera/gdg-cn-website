@@ -35,7 +35,7 @@ function CoreTeam() {
 			<div className="team-content">
 				<h3 className="name">Name</h3>
 				<h4 className="title">designation</h4>
-			</div>
+			</div>    
 			<div className="social">
 				<a href='facebook.com' className="fa fa-facebook" aria-hidden="true" target="_blank"></a>
 
