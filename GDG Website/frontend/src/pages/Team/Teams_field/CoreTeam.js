@@ -40,7 +40,7 @@ function CoreTeam() {
 				<a href='facebook.com' className="fa fa-facebook" aria-hidden="true" target="_blank"></a>
 
 				<a href='github.com' className="fa" aria-hidden="true" target="_blank">
-					{" "}
+					{" "}     
 					{/* <Github className="fa" /> */}
 				</a>
 
