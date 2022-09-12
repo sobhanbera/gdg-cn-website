@@ -33,7 +33,7 @@ function CoreTeam() {
 			<img className="img-fluid" src="ww." />    
 			{/* </div> */}
 			<div className="team-content">
-				<h3 className="name">Name</h3>
+				<h3 className="name">Name</h3>     
 				<h4 className="title">designation</h4>
 			</div>    
 			<div className="social">
