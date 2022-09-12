@@ -45,7 +45,7 @@ function CoreTeam() {
 				</a>
 
 				<a href='linkdin.com' className="fa fa-linkedin" aria-hidden="true" target="_blank"></a>
-			</div>
+			</div>     
 			{/* </div> */}
 			{/* {admin && (
 				<div className="buttonsAdmin">
@@ -108,7 +108,7 @@ function CoreTeam() {
 
 
 
-        
+
             {/* <div id="CoreTeam" className="Field_view">
             {coreTeam &&
                 coreTeam.map((teams) => {
