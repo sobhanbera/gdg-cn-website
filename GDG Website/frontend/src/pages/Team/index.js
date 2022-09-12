@@ -23,23 +23,19 @@ import PastTeam from "./Teams_field/PastTeam";
 
 const slider_img = [tempImg, tempImg];
 
-const Fields = ["Core Team", "Web", "Design", "ML", "Blockchain", "App", "Management"];
+// const Fields = ["Core Team", "Web", "Design", "ML", "Blockchain", "App", "Management"];
+const Fields = ["Core Team", "Web", "Design", "Management"];
 const FieldPages = [
 	<CoreTeam />,
 	<WebTeam />,
 	<DesignTeam />,
-	<MLTeam />,
-	<BlockchainTeam />,
-	<AppTeam />,
+	// <MLTeam />,
+	// <BlockchainTeam />,
+	// <AppTeam />,
 	<ManagementTeam />,
 ];
 
-function Team() {
-	return (
-	<p>	Comming Soon</p>
-	);
-}
-{/*
+
 function Team() {
 	const [showField, setshowField] = useState("CoreTeam");
 	const [showFieldIdx, setshowFieldIdx] = useState(0);
@@ -90,9 +86,8 @@ function Team() {
 	};
 	return (
 		<div>
-		/////////////////////////////////////////////////////////////////////////
-		*/
-			/* <div>
+		
+			{ /* <div>
                 <Slider autoplay {...settings}>
                     {
                         slider_img.map((item, index) => (
@@ -118,9 +113,8 @@ function Team() {
                     <SwiperSlide>Slide 8</SwiperSlide>
                     <SwiperSlide>Slide 9</SwiperSlide>
                 </Swiper>
-            </div> */
-			/*
-		////////////////////////////////////////////////////////////
+            </div> */ }
+		
 
 			<section className="Team_section">
 				<Headings
@@ -172,6 +166,5 @@ function Team() {
 		</div>
 		);
 	}
-*/}
 
 export default Team;

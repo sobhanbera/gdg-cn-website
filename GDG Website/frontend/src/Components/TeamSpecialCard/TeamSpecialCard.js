@@ -43,7 +43,7 @@ function TeamSpecialCard() {
                                     color="#1B2733"
                                     gutterBottom
                                 >
-                                    Tejas Mane
+                                    Vedant 
                                 </Typography>
                                 <Typography
                                     sx={{
@@ -55,7 +55,7 @@ function TeamSpecialCard() {
                                     color="#637282"
                                     gutterBottom
                                 >
-                                    GDSC IIITA Lead
+                                    GDG Lead
                                 </Typography>
                                 <Typography
                                     sx={{

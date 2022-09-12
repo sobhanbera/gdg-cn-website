@@ -66,87 +66,88 @@ function Contact() {
 	};
 
 	return (
-		<section
-			className="Contact_section"
-			style={{
-				width: "100%",
-				display: "flex",
-				flexDirection: "column",
-				overflow: "hidden",
-				gap: "6.22vh",
-				background: "#ffffff",
-			}}
-		>
-			<Headings
-				LargeHeading="Contact Us"
-				SmallHeading="Have any queries? We'd love to hear from you!"
-				Text=""
-				PageIllustration={""}
-				style={{ paddingBottom: 0 }}
-			/>
-			{/* onSubmit={(e)=>handleRequest(e)} method="POST" id="name" name="name" */}
-			<div className="Contact_form_n_image" style={{ marginTop: "-10vh" }}>
-				<div className="form_container">
-					<form className="contact_form">
-						<div className="form_name_inp">
-							<input
-								type="text"
-								className="Name_input"
-								onChange={event => {
-									handleNameChange(event);
-								}}
-								value={name}
-								id="name"
-								name="name"
-							/>
-							<span className={`${name === "" ? "Name_inp" : "name_filled"}`}></span>
-						</div>
-						<div className="form_email_inp">
-							<input
-								type="text"
-								className="Email_input"
-								onChange={event => {
-									handleEmailChange(event);
-								}}
-								value={email}
-								id="email"
-								name="email"
-							/>
-							<span className={`${email === "" ? "Email_inp" : "email_filled"}`}></span>
-						</div>
-						<div className="form_message_inp">
-							<textarea
-								type="text"
-								className="Message_input"
-								onChange={event => {
-									handleMessageChange(event);
-								}}
-								value={message}
-								id="message"
-								name="message"
-							/>
-							<span className={`${message === "" ? "Message_inp" : "message_filled"}`}></span>
-						</div>
+		// <section
+		// 	className="Contact_section"
+		// 	style={{
+		// 		width: "100%",
+		// 		display: "flex",
+		// 		flexDirection: "column",
+		// 		overflow: "hidden",
+		// 		gap: "6.22vh",
+		// 		background: "#ffffff",
+		// 	}}
+		// >
+		// 	<Headings
+		// 		LargeHeading="Contact Us"
+		// 		SmallHeading="Have any queries? We'd love to hear from you!"
+		// 		Text=""
+		// 		PageIllustration={""}
+		// 		style={{ paddingBottom: 0 }}
+		// 	/>
+		// 	{/* onSubmit={(e)=>handleRequest(e)} method="POST" id="name" name="name" */}
+		// 	<div className="Contact_form_n_image" style={{ marginTop: "-10vh" }}>
+		// 		<div className="form_container">
+		// 			<form className="contact_form">
+		// 				<div className="form_name_inp">
+		// 					<input
+		// 						type="text"
+		// 						className="Name_input"
+		// 						onChange={event => {
+		// 							handleNameChange(event);
+		// 						}}
+		// 						value={name}
+		// 						id="name"
+		// 						name="name"
+		// 					/>
+		// 					<span className={`${name === "" ? "Name_inp" : "name_filled"}`}></span>
+		// 				</div>
+		// 				<div className="form_email_inp">
+		// 					<input
+		// 						type="text"
+		// 						className="Email_input"
+		// 						onChange={event => {
+		// 							handleEmailChange(event);
+		// 						}}
+		// 						value={email}
+		// 						id="email"
+		// 						name="email"
+		// 					/>
+		// 					<span className={`${email === "" ? "Email_inp" : "email_filled"}`}></span>
+		// 				</div>
+		// 				<div className="form_message_inp">
+		// 					<textarea
+		// 						type="text"
+		// 						className="Message_input"
+		// 						onChange={event => {
+		// 							handleMessageChange(event);
+		// 						}}
+		// 						value={message}
+		// 						id="message"
+		// 						name="message"
+		// 					/>
+		// 					<span className={`${message === "" ? "Message_inp" : "message_filled"}`}></span>
+		// 				</div>
 						
-						<button type="submit" className="Send_btn" onClick={event => handleRequest(event)}>
-							{loading ? (<CircularProgress size="2rem" sx={{color:'white',}} />) : (
-								<>
-									Send
-									<img src={Send_icon} alt="Send" className="sendIcon" />
-								</>
+		// 				<button type="submit" className="Send_btn" onClick={event => handleRequest(event)}>
+		// 					{loading ? (<CircularProgress size="2rem" sx={{color:'white',}} />) : (
+		// 						<>
+		// 							Send
+		// 							<img src={Send_icon} alt="Send" className="sendIcon" />
+		// 						</>
 								
-								)}
+		// 						)}
 							
 							
 							
-						</button>
-					</form>
-				</div>
-				<div className="Contact_image">
-					<img src={Contact_image} alt="Contact_Image" />
-				</div>
-			</div>
-		</section>
+		// 				</button>
+		// 			</form>
+		// 		</div>
+		// 		<div className="Contact_image">
+		// 			<img src={Contact_image} alt="Contact_Image" />
+		// 		</div>
+		// 	</div>
+		// </section>
+		<section></section>
 	);
 }
 

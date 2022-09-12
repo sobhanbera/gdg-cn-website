@@ -15,7 +15,36 @@ import join_the_convo_img_2 from "../../Assets/Join_discord.png";
 import aboutdsc from "../../Assets/Images/dsc2.png";
 import dsciiita from "../../Assets/Images/iiita.jpg";
 
+const colors = ["https://www.visionbanks.com/wp-content/uploads/placeholdit-350x350.png", "https://www.visionbanks.com/wp-content/uploads/placeholdit-350x350.png", "https://www.visionbanks.com/wp-content/uploads/placeholdit-350x350.png"];
+const delay = 2500;
+
+
 function About() {
+
+	const [index, setIndex] = React.useState(0);
+  const timeoutRef = React.useRef(null);
+
+  function resetTimeout() {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+  }
+
+  React.useEffect(() => {
+    resetTimeout();
+    timeoutRef.current = setTimeout(
+      () =>
+        setIndex((prevIndex) =>
+          prevIndex === colors.length - 1 ? 0 : prevIndex + 1
+        ),
+      delay
+    );
+
+    return () => {
+      resetTimeout();
+    };
+  }, [index]);
+
 	return (
 		<section
 			className="About_section"
@@ -39,7 +68,7 @@ function About() {
 				<img src={aboutdsc} alt="aboutdsc.jpg" style={{ boxShadow: "0px 0px 0px #ffe" }} />
 
 				<div>
-					<p className="Abt_Heading">What's GDSC?</p>
+					<p className="Abt_Heading">What's GDG?</p>
 					<p className="Abt_Content">
 						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed sequi placeat dolores officiis in. Dolore tempora assumenda unde at fugiat ut similique alias blanditiis rerum magnam voluptas, mollitia debitis sed sunt iste, optio dolores expedita eligendi obcaecati beatae tenetur dignissimos.<br></br>
 						<br></br># Lets Learn, Grow and Innovate together.
@@ -114,7 +143,7 @@ function About() {
 				</div>
 			</div>
 
-			<div className="Join_the_convo">
+			{/* <div className="Join_the_convo">
 				<p className="Join_the_convo_heading" style={{ textAlign: "center" }}>
 					Join the Conversation
 				</p>
@@ -142,9 +171,42 @@ function About() {
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> */}
+
+
+
+<div className="What_we_do">
+<p className="What_we_do_heading">Out Sponsers</p></div>
+<div className="slideshow">
+      <div
+        className="slideshowSlider"
+        style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
+      >
+        {colors.map((backgroundColor, index) => (
+          <div
+            className="slide"
+            key={index}
+            style={{ backgroundColor }}
+          ><img src={backgroundColor } alt="" /></div>
+        ))}
+      </div>
+
+      <div className="slideshowDots">
+        {colors.map((_, idx) => (
+          <div
+            key={idx}
+            className={`slideshowDot${index === idx ? " active" : ""}`}
+            onClick={() => {
+              setIndex(idx);
+            }}
+          ></div>
+        ))}
+      </div>
+    </div>
 		</section>
 	);
+
+	
 }
 
 export default About;

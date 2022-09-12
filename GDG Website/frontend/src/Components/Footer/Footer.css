@@ -9,6 +9,32 @@
 	margin-top: 5vh;
 }
 
+.joinusbutton{
+	
+	background-color: #008CBA; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	display: flex;
+	text-decoration: none;
+
+}
+
+.joinusbutton:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+.centertag{
+	margin: auto;
+	
+}
+.contact_pin_icon{
+	padding-right: 10px;
+}
+
 .footer_top {
 	width: 100%;
 	display: flex;
