@@ -30,7 +30,7 @@ function CoreTeam() {
 <div className="MemberCard_container">
 			{/* <div className="team-card"> */}
 			{/* <div className="picture"> */}
-			<img className="img-fluid" src="ww." />
+			<img className="img-fluid" src="ww." />    
 			{/* </div> */}
 			<div className="team-content">
 				<h3 className="name">Name</h3>
