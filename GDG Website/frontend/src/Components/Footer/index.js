@@ -35,15 +35,15 @@ function Footer() {
           <div className="contact_sec_1">
             <a
               className="contact_mail"
-              href="mailto:gdsc@iiita.ac.in"
+              href="mailto:gdgcngp@gmail.com"
               target="_blank"
             >
               <div className="contact_mail_icon">
                 <img src={mail_icon} alt="mail" />
               </div>
               <p>
-                {/* <a href="mailto:gdsc@iiita.ac.in" target="_blank"> */}
-                gdg@mail
+                {/* <a href="mailto:gdgcngp@gmail.com" target="_blank"> */}
+                gdgcngp@gmail.com
                 {/* </a> */}
               </p>
             </a>
