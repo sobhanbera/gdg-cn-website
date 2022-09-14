@@ -43,7 +43,7 @@ function TeamSpecialCard() {
                                     color="#1B2733"
                                     gutterBottom
                                 >
-                                    Vedant 
+                                    Vedant khairnar
                                 </Typography>
                                 <Typography
                                     sx={{
@@ -86,7 +86,7 @@ function TeamSpecialCard() {
                     </CardContent>
                 </Card>
             </Box>
-            <Box className={styles.card} sx={{ minWidth: 275 }}>
+            {/* <Box className={styles.card} sx={{ minWidth: 275 }}>
                 <Card variant="outlined" style={{ borderRadius: 15 }}>
                     <CardContent>
                         <div className={styles.container}>
@@ -137,6 +137,8 @@ function TeamSpecialCard() {
                                 </Typography>
                             </div>
                             <div className={styles.social_icons}>
+                             */}
+
                                 {/* <a href="www.twitter.com">
                                     <Twitter width="25px" />
                                 </a>
@@ -146,11 +148,11 @@ function TeamSpecialCard() {
                                 <a href="www.linkedin.com">
                                     <Linkedin width="25px" />
                                 </a> */}
-                            </div>
+                            {/* </div>
                         </div>
                     </CardContent>
                 </Card>
-            </Box>
+            </Box> */}
         </div>
     );
 }
