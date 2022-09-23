@@ -18,16 +18,8 @@ function DesignTeam() {
     })
   
     return (
-        <div id="Design" className="Field_view">
-        {designTeam &&
-            designTeam.map((teams) => {
-                return <MemberCard
-                key={teams._id}
-                 team={teams}
-            />
-            })
-        }
-    </div>
+        "d"
+
     )}
 
 export default DesignTeam
