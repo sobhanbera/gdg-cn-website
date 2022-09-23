@@ -194,14 +194,18 @@ function Events() {
           </div> */}
          
         </div>
+		
       </div>
-
+	  <br/>
+		<br/>
+		
+		<br/>
 			<HeadingButton
 				LargeHeading="Interested in being a Speaker at one of our events?"
 				SmallHeading="Just drop us your Proposal."
 				bg={FormBtnBg}
 				btnText="Get in Touch"
-				formLink="https://docs.google.com/forms/d/e/1FAIpQLSc9zo00sylbNGIfLKprXnYOy-F_giR2FD4vKw2GxJHnzTwHWw/viewform"
+				formLink=""
 			/>
 		</section>
 	);
