@@ -111,13 +111,25 @@ function Events() {
         <div className="MemberCard_container">
           {/* <div className="team-card"> */}
           {/* <div className="picture"> */}
-          <img className="img-fluid" src="ww." />
+          <img className="img-fluid" src="https://xp.io/storage/17KFJXaf.png" />
           {/* </div> */}
+		  AUG 6,2022
           <div className="team-content">
-            <h3 className="name">Name</h3>
-            <h4 className="title">designation</h4>
+            <h3 className="name">Co-Host / External Ticketing</h3>
+            <h4 className="title">ML on Cloud Series: Transfer Learning</h4>
           </div>
-          <div className="social">
+
+		  <button
+		   style={{color: "white",
+		   background:"#0f9d58",
+			width: "90%",
+			padding: "0.5rem",
+			margin:"0.7rem",
+			fontsize: "14px",
+			fontweight: "600" }}
+		  >VIEW EVENT</button>
+		
+          {/* <div className="social">
             <a
               href="facebook.com"
               className="fa fa-facebook"
@@ -125,15 +137,7 @@ function Events() {
               target="_blank"
             ></a>
 
-            <a
-              href="github.com"
-              className="fa"
-              aria-hidden="true"
-              target="_blank"
-            >
-              {" "}
-              {/* <Github className="fa" /> */}
-            </a>
+            
 
             <a
               href="linkdin.com"
@@ -141,19 +145,29 @@ function Events() {
               aria-hidden="true"
               target="_blank"
             ></a>
-          </div>
+          </div> */}
         </div>
 
         <div className="MemberCard_container">
           {/* <div className="team-card"> */}
           {/* <div className="picture"> */}
-          <img className="img-fluid" src="ww." />
+          <img className="img-fluid" src="https://xp.io/storage/17KV8Gwt.png" />
           {/* </div> */}
+		  JUL 23,2023
           <div className="team-content">
-            <h3 className="name">Name</h3>
-            <h4 className="title">designation</h4>
+            <h3 className="name">Workshop/Study Group</h3>
+            <h4 className="title">Android Study Jam GDG Cloud Nagpur</h4>
           </div>
-          <div className="social">
+		  <button
+		   style={{color: "white",
+		   background:"#0f9d58",
+			width: "90%",
+			padding: "0.5rem",
+			margin:"0.7rem",
+			fontsize: "14px",
+			fontweight: "600" }}
+		  >VIEW EVENT</button>
+          {/* <div className="social">
             <a
               href="facebook.com"
               className="fa fa-facebook"
@@ -168,7 +182,7 @@ function Events() {
               target="_blank"
             >
               {" "}
-              {/* <Github className="fa" /> */}
+             
             </a>
 
             <a
@@ -177,8 +191,8 @@ function Events() {
               aria-hidden="true"
               target="_blank"
             ></a>
-          </div>
-          {/* </div> */}
+          </div> */}
+         
         </div>
       </div>
 
