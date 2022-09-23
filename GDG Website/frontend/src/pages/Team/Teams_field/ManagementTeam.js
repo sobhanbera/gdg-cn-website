@@ -17,16 +17,116 @@ function ManagementTeam() {
         return e.designation === 'Management';
     })
     return (
-        <div id="Web" className="Field_view">
-        {managementTeam &&
-            managementTeam.map((teams) => {
-                return <MemberCard
-                key={teams._id}
-                 team={teams}
-            />
-            })
-        }
-    </div>
+        <div className="card_centered">
+        <div className="MemberCard_container">
+          {/* <div className="team-card"> */}
+          {/* <div className="picture"> */}
+          <img className="img-fluid" src="https://xp.io/storage/17JiIKcE.jpg" />
+          {/* </div> */}
+          <div className="team-content">
+            <h3 className="name">Samiksha Kachore </h3>
+            <h4 className="title">Content Writing | digital creation | leadership | Python | AWS | SQL</h4>
+          </div>
+          <div className="social">
+            <a
+              href="facebook.com"
+              className="fa fa-facebook"
+              aria-hidden="true"
+              target="_blank"
+            ></a>
+
+            <a
+              href="github.com"
+              className="fa"
+              aria-hidden="true"
+              target="_blank"
+            >
+              {" "}
+              {/* <Github className="fa" /> */}
+            </a>
+
+            <a
+              href="linkdin.com"
+              className="fa fa-linkedin"
+              aria-hidden="true"
+              target="_blank"
+            ></a>
+          </div>
+        </div>
+
+        <div className="MemberCard_container">
+          {/* <div className="team-card"> */}
+          {/* <div className="picture"> */}
+          <img className="img-fluid" src="https://xp.io/storage/17JaTlZf.jpg" />
+          {/* </div> */}
+          <div className="team-content">
+            <h3 className="name">Shreya Santoshwar </h3>
+            <h4 className="title">-</h4>
+          </div>
+          <div className="social">
+            <a
+              href="facebook.com"
+              className="fa fa-facebook"
+              aria-hidden="true"
+              target="_blank"
+            ></a>
+
+            <a
+              href="github.com"
+              className="fa"
+              aria-hidden="true"
+              target="_blank"
+            >
+              {" "}
+              {/* <Github className="fa" /> */}
+            </a>
+
+            <a
+              href="linkdin.com"
+              className="fa fa-linkedin"
+              aria-hidden="true"
+              target="_blank"
+            ></a>
+          </div>
+        </div>
+
+        <div className="MemberCard_container">
+          {/* <div className="team-card"> */}
+          {/* <div className="picture"> */}
+          <img className="img-fluid" src="https://xp.io/storage/17JkE0dV.png" />
+          {/* </div> */}
+          <div className="team-content">
+            <h3 className="name">Neenad Sahasrabuddhe</h3>
+            <h4 className="title">React.Js | Next.Js | Frontend Development</h4>
+          </div>
+          <div className="social">
+            <a
+              href="facebook.com"
+              className="fa fa-facebook"
+              aria-hidden="true"
+              target="_blank"
+            ></a>
+
+            <a
+              href="github.com"
+              className="fa"
+              aria-hidden="true"
+              target="_blank"
+            >
+              {" "}
+              {/* <Github className="fa" /> */}
+            </a>
+
+            <a
+              href="linkdin.com"
+              className="fa fa-linkedin"
+              aria-hidden="true"
+              target="_blank"
+            ></a>
+          </div>
+          {/* </div> */}
+        </div>
+      </div>
     )}
 
 export default ManagementTeam

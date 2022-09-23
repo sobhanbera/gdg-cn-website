@@ -16,16 +16,80 @@ function BlockchainTeam() {
         return e.designation === 'BlockChain';
     })
     return (
-        <div id="Blockchain" className="Field_view">
-            {blockChain &&
-                blockChain.map((teams) => {
-                    return <MemberCard
-                    key={teams._id}
-                     team={teams}
-                />
-                })
-            }
+        <div className="card_centered">
+        <div className="MemberCard_container">
+          {/* <div className="team-card"> */}
+          {/* <div className="picture"> */}
+          <img className="img-fluid" src="https://xp.io/stoge/17Jgak4y.jpg" />
+          {/* </div> */}
+          <div className="team-content">
+          <h3 className="name">Pratiksha Ekbote </h3>
+            <h4 className="title">Adobe Illustrator | Adobe photoshop | Figma | Canva</h4> </div>
+          <div className="social">
+            <a
+              href="facebook.com"
+              className="fa fa-facebook"
+              aria-hidden="true"
+              target="_blank"
+            ></a>
+
+            <a
+              href="github.com"
+              className="fa"
+              aria-hidden="true"
+              target="_blank"
+            >
+              {" "}
+              {/* <Github className="fa" /> */}
+            </a>
+
+            <a
+              href="linkdin.com"
+              className="fa fa-linkedin"
+              aria-hidden="true"
+              target="_blank"
+            ></a>
+          </div>
         </div>
+
+        <div className="MemberCard_container">
+          {/* <div className="team-card"> */}
+          {/* <div className="picture"> */}
+          <img className="img-fluid" src="https://xp.io/storage/17JmB9QN.jpg" />
+          {/* </div> */}
+          <div className="team-content">
+          <h3 className="name">Mohammad Faysal Khan </h3>
+            <h4 className="title">Javascript | Data Analyst | Problem-solving</h4>
+          </div>
+          <div className="social">
+            <a
+              href="facebook.com"
+              className="fa fa-facebook"
+              aria-hidden="true"
+              target="_blank"
+            ></a>
+
+            <a
+              href="github.com"
+              className="fa"
+              aria-hidden="true"
+              target="_blank"
+            >
+              {" "}
+              {/* <Github className="fa" /> */}
+            </a>
+
+            <a
+              href="linkdin.com"
+              className="fa fa-linkedin"
+              aria-hidden="true"
+              target="_blank"
+            ></a>
+          </div>
+          {/* </div> */}
+        </div>
+      </div>
+
     )}
 
 export default BlockchainTeam

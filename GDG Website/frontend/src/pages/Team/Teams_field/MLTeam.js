@@ -17,16 +17,7 @@ function MLTeam() {
         return e.designation === 'ML';
     })
     return (
-        <div id="Web" className="Field_view">
-        {MLTeam &&
-            MLTeam.map((teams) => {
-                return <MemberCard
-                key={teams._id}
-                 team={teams}
-            />
-            })
-        }
-    </div>
+    "ff"
     )}
 
 export default MLTeam
