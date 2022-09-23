@@ -26,7 +26,7 @@ function TeamSpecialCard() {
                         <div className={styles.container}>
                             <div className={styles.img}>
                                 <Avatar
-                                    src="https://drive.google.com/uc?export=view&id=15ISeltKaJeJKmUBq9Ie3fo2WvqHa6JRS"
+                                    src="https://i.ibb.co/HVR4MnL/vedant-Khairnar-copy-GDG-Cloud-Nagpur.jpg"
                                     sx={{ width: 140, height: 140 }}
                                 />
                             </div>
@@ -67,7 +67,7 @@ function TeamSpecialCard() {
                                     color="#637282"
                                     gutterTop
                                 >
-                                    Technical Undergraduate Intern at Cisco | Android Developer
+                                    Machine Learning | Salesforce | Kubernetes
                                 </Typography>
                             </div>
                             <div className={styles.social_icons}>

@@ -15,7 +15,7 @@ import join_the_convo_img_2 from "../../Assets/Join_discord.png";
 import aboutdsc from "../../Assets/Images/dsc2.png";
 import dsciiita from "../../Assets/Images/iiita.jpg";
 
-const colors = ["https://www.visionbanks.com/wp-content/uploads/placeholdit-350x350.png", "https://www.visionbanks.com/wp-content/uploads/placeholdit-350x350.png", "https://www.visionbanks.com/wp-content/uploads/placeholdit-350x350.png"];
+const colors = ["https://seeklogo.com/images/G/google-2015-logo-65BBD07B01-seeklogo.com.png", "https://jetbrains.com.xy2401.com/company/brand/img/logo4.svg"];
 const delay = 2500;
 
 
@@ -81,7 +81,7 @@ function About() {
 					</button>
 				</div>
 			</div>
-			<div className="About About_DSC_IIITA">
+			{/* <div className="About About_DSC_IIITA">
 				<img src={dsciiita} alt="dsciiita.jpg" target="_blank" />
 				<div>
 					<p className="Abt_Heading">About GDG Nagpur</p>
@@ -97,7 +97,7 @@ function About() {
 						</Link>
 					</button>
 				</div>
-			</div>
+			</div> */}
 
 			<div className="What_we_do">
 				<p className="What_we_do_heading">What GDG Nagpur does?</p>
@@ -176,7 +176,7 @@ function About() {
 
 
 <div className="What_we_do">
-<p className="What_we_do_heading">Out Sponsers</p></div>
+<p className="What_we_do_heading">Our Sponsers</p></div>
 <div className="slideshow">
       <div
         className="slideshowSlider"
@@ -203,6 +203,9 @@ function About() {
         ))}
       </div>
     </div>
+	<div className="What_we_do">
+<p className="What_we_do_heading">Our Partners</p></div>
+<img src="" alt="" />
 		</section>
 	);
 

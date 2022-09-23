@@ -12,8 +12,25 @@ import CarouselComponent from "./Events";
 import styles from "./EventPage.module.css";
 import EventCards2 from "../../Components/EventCard/index copy";
 import FormBtnBg from "../../Assets/Form_btns_bg.png";
+import Card from "@mui/material/Card";
+import { ReactComponent as RSVPsvg } from "../../Assets/svg_link.svg";
+import { ReactComponent as Calendar } from "../../Assets/calendar.svg";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import { Button, CardActionArea } from "@mui/material";
+import moment from "moment";
+
 
 function Events() {
+
+	
+	function shorten(str, separator = " ") {
+		if (str) {
+			if (str.length <= 150) return str;
+			return `${str.substr(0, str.lastIndexOf(separator, 150))}...`;
+		}
+	}
+
 	return (
 		<section
 			className="Events_section"
@@ -87,7 +104,13 @@ function Events() {
 					</Link>
 				</Fab> */}
 			</div>
-			<EventCards2 upcoming={false} />
+			{/* <EventCards2 upcoming={false} /> */}
+
+		
+			Yahah Pr paste karna
+
+			<div>erfgb</div>
+				
 			<HeadingButton
 				LargeHeading="Interested in being a Speaker at one of our events?"
 				SmallHeading="Just drop us your Proposal."
