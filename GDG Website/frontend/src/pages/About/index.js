@@ -20,7 +20,7 @@ const delay = 2500;
 
 
 function About() {
-
+	const imagesize = "17	0px"
 	const [index, setIndex] = React.useState(0);
   const timeoutRef = React.useRef(null);
 
@@ -205,7 +205,27 @@ function About() {
     </div>
 	<div className="What_we_do">
 <p className="What_we_do_heading">Our Partners</p></div>
-<img src="" alt="" />
+<div style={{margin:"auto"}}>
+
+	
+	<div>
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/36/VNIT_logo.jpeg/220px-VNIT_logo.jpeg" style={{width:imagesize}} alt="" />
+
+	
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/36/VNIT_logo.jpeg/220px-VNIT_logo.jpeg" style={{width:imagesize}} alt="" />
+</div>
+<div>
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/36/VNIT_logo.jpeg/220px-VNIT_logo.jpeg" style={{width:imagesize}} alt="" />
+
+	
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/36/VNIT_logo.jpeg/220px-VNIT_logo.jpeg" style={{width:imagesize}} alt="" />
+</div>
+	<div>
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/36/VNIT_logo.jpeg/220px-VNIT_logo.jpeg" style={{width:imagesize}} alt="" />
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/36/VNIT_logo.jpeg/220px-VNIT_logo.jpeg" style={{width:imagesize}} alt="" />
+
+	</div>
+</div>
 		</section>
 	);
 

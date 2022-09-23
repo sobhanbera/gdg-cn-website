@@ -40,29 +40,20 @@ function CoreTeam() {
             <h4 className="title">C/C++ | Python | Java | HTML | CSS</h4>
           </div>
           <div className="social">
-            <a
-              href="facebook.com"
-              className="fa fa-facebook"
-              aria-hidden="true"
-              target="_blank"
-            ></a>
+          <a
+          href="https://github.com/Stutiagrawal10"
+          className="fa fa-github"
+          aria-hidden="true"
+          target="_blank"
+        ></a>
 
-            <a
-              href="github.com"
-              className="fa"
-              aria-hidden="true"
-              target="_blank"
-            >
-              {" "}
-              {/* <Github className="fa" /> */}
-            </a>
-
-            <a
-              href="linkdin.com"
-              className="fa fa-linkedin"
-              aria-hidden="true"
-              target="_blank"
-            ></a>
+     
+        <a
+          href="https://www.linkedin.com/in/stuti-agrawal-2417a2238/"
+          className="fa fa-linkedin"
+          aria-hidden="true"
+          target="_blank"
+        ></a>
           </div>
         </div>
 
@@ -76,29 +67,20 @@ function CoreTeam() {
             <h4 className="title">Learner | Flutter Developer</h4>
           </div>
           <div className="social">
-            <a
-              href="facebook.com"
-              className="fa fa-facebook"
-              aria-hidden="true"
-              target="_blank"
-            ></a>
+          <a
+          href="https://github.com/Aaliya-Ali"
+          className="fa fa-github"
+          aria-hidden="true"
+          target="_blank"
+        ></a>
 
-            <a
-              href="github.com"
-              className="fa"
-              aria-hidden="true"
-              target="_blank"
-            >
-              {" "}
-              {/* <Github className="fa" /> */}
-            </a>
-
-            <a
-              href="linkdin.com"
-              className="fa fa-linkedin"
-              aria-hidden="true"
-              target="_blank"
-            ></a>
+     
+        <a
+          href="https://www.linkedin.com/in/aaliyaali"
+          className="fa fa-linkedin"
+          aria-hidden="true"
+          target="_blank"
+        ></a>
           </div>
           {/* </div> */}
         </div>
@@ -112,29 +94,20 @@ function CoreTeam() {
             <h4 className="title">HTML | C++</h4>
           </div>
           <div className="social">
-            <a
-              href="facebook.com"
-              className="fa fa-facebook"
-              aria-hidden="true"
-              target="_blank"
-            ></a>
+          <a
+          href="https://github.com/mohitchandak"
+          className="fa fa-github"
+          aria-hidden="true"
+          target="_blank"
+        ></a>
 
-            <a
-              href="github.com"
-              className="fa"
-              aria-hidden="true"
-              target="_blank"
-            >
-              {" "}
-              {/* <Github className="fa" /> */}
-            </a>
-
-            <a
-              href="linkdin.com"
-              className="fa fa-linkedin"
-              aria-hidden="true"
-              target="_blank"
-            ></a>
+     
+        <a
+          href="https://www.linkedin.com/in/chandak-mohit/"
+          className="fa fa-linkedin"
+          aria-hidden="true"
+          target="_blank"
+        ></a>
           </div>
           
 
@@ -151,29 +124,20 @@ function CoreTeam() {
             <h4 className="title">Full Stack Java Developer | Tech Educator</h4>
           </div>
           <div className="social">
-            <a
-              href="facebook.com"
-              className="fa fa-facebook"
-              aria-hidden="true"
-              target="_blank"
-            ></a>
+          <a
+          href="https://github.com/chandrakant22"
+          className="fa fa-github"
+          aria-hidden="true"
+          target="_blank"
+        ></a>
 
-            <a
-              href="github.com"
-              className="fa"
-              aria-hidden="true"
-              target="_blank"
-            >
-              {" "}
-              {/* <Github className="fa" /> */}
-            </a>
-
-            <a
-              href="linkdin.com"
-              className="fa fa-linkedin"
-              aria-hidden="true"
-              target="_blank"
-            ></a>
+     
+        <a
+          href="https://www.linkedin.com/in/chandrakant22/"
+          className="fa fa-linkedin"
+          aria-hidden="true"
+          target="_blank"
+        ></a>
           </div>
           
 

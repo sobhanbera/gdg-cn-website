@@ -26,29 +26,20 @@ function BlockchainTeam() {
           <h3 className="name">Pratiksha Ekbote </h3>
             <h4 className="title">Adobe Illustrator | Adobe photoshop | Figma | Canva</h4> </div>
           <div className="social">
-            <a
-              href="facebook.com"
-              className="fa fa-facebook"
-              aria-hidden="true"
-              target="_blank"
-            ></a>
+          <a
+          href="https://github.com/Pratikshaekbote"
+          className="fa fa-github"
+          aria-hidden="true"
+          target="_blank"
+        ></a>
 
-            <a
-              href="github.com"
-              className="fa"
-              aria-hidden="true"
-              target="_blank"
-            >
-              {" "}
-              {/* <Github className="fa" /> */}
-            </a>
-
-            <a
-              href="linkdin.com"
-              className="fa fa-linkedin"
-              aria-hidden="true"
-              target="_blank"
-            ></a>
+     
+        <a
+          href="https://www.linkedin.com/in/pratikshaekbote"
+          className="fa fa-linkedin"
+          aria-hidden="true"
+          target="_blank"
+        ></a>
           </div>
         </div>
 
@@ -62,29 +53,20 @@ function BlockchainTeam() {
             <h4 className="title">Javascript | Data Analyst | Problem-solving</h4>
           </div>
           <div className="social">
-            <a
-              href="facebook.com"
-              className="fa fa-facebook"
-              aria-hidden="true"
-              target="_blank"
-            ></a>
+          <a
+          href="https://github.com/fk-mfk"
+          className="fa fa-github"
+          aria-hidden="true"
+          target="_blank"
+        ></a>
 
-            <a
-              href="github.com"
-              className="fa"
-              aria-hidden="true"
-              target="_blank"
-            >
-              {" "}
-              {/* <Github className="fa" /> */}
-            </a>
-
-            <a
-              href="linkdin.com"
-              className="fa fa-linkedin"
-              aria-hidden="true"
-              target="_blank"
-            ></a>
+     
+        <a
+          href="https://www.linkedin.com/in/faysal-khan-40aa1521b/"
+          className="fa fa-linkedin"
+          aria-hidden="true"
+          target="_blank"
+        ></a>
           </div>
           {/* </div> */}
         </div>

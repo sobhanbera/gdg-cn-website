@@ -71,14 +71,12 @@ function TeamSpecialCard() {
                                 </Typography>
                             </div>
                             <div className={styles.social_icons}>
-                                <a href="https://twitter.com/TejasMMane" target="_blank">
-                                    <Twitter width="25px" />
-                                </a>
+                          
                                 {/* <a href="" className="fa fa-facebook" aria-hidden="true" target="_blank" width="px"></a> */}
-                                <a href="https://github.com/tejma17" target="_blank">
+                                <a href="https://github.com/VedantKhairnar" target="_blank">
                                     <Github width="25px" />
                                 </a>
-                                <a href="https://www.linkedin.com/in/tejas-mane/" target="_blank">
+                                <a href="https://www.linkedin.com/in/vedantkhairnar/" target="_blank">
                                     <Linkedin width="25px" />
                                 </a>
                             </div>

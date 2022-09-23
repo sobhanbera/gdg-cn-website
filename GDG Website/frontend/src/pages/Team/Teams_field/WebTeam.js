@@ -22,32 +22,23 @@ return (
     <div className="MemberCard_container">
       {/* <div className="team-card"> */}
       {/* <div className="picture"> */}
-      <img className="img-fluid" src="https://xp.io/storage/17J392RB.jpg" />
+      <img className="img-fluid" src="https://xp.io/storage/17MHbXD5.jpg" />
       {/* </div> */}
       <div className="team-content">
         <h3 className="name">Ayush Shete</h3>
-        <h4 className="title">--</h4>
+        <h4 className="title">Smart India Hackathon Winner 🏆 | Full Stack Developer | Machine Learning Enthusiast</h4>
       </div>
       <div className="social">
         <a
-          href="facebook.com"
-          className="fa fa-facebook"
+          href="https://github.com/ayushete02"
+          className="fa fa-github"
           aria-hidden="true"
           target="_blank"
         ></a>
 
+     
         <a
-          href="github.com"
-          className="fa"
-          aria-hidden="true"
-          target="_blank"
-        >
-          {" "}
-          {/* <Github className="fa" /> */}
-        </a>
-
-        <a
-          href="linkdin.com"
+          href="https://www.linkedin.com/in/ayushete02/"
           className="fa fa-linkedin"
           aria-hidden="true"
           target="_blank"
@@ -61,32 +52,23 @@ return (
     <div className="MemberCard_container">
       {/* <div className="team-card"> */}
       {/* <div className="picture"> */}
-      <img className="img-fluid" src="https://xp.io/storage/17IZa6Hg.jpg" />
+      <img className="img-fluid" src="https://xp.io/storage/17Mz7Q8k.jpg" />
       {/* </div> */}
       <div className="team-content">
         <h3 className="name">Atharva Pandhare</h3>
-        <h4 className="title">--</h4>
+        <h4 className="title">Tech Enthusast | Hackathonist</h4>
       </div>
       <div className="social">
-        <a
-          href="facebook.com"
-          className="fa fa-facebook"
+      <a
+          href="github.com"
+          className="fa fa-github"
           aria-hidden="true"
           target="_blank"
         ></a>
 
+     
         <a
-          href="github.com"
-          className="fa"
-          aria-hidden="true"
-          target="_blank"
-        >
-          {" "}
-          {/* <Github className="fa" /> */}
-        </a>
-
-        <a
-          href="linkdin.com"
+          href="https://www.linkedin.com/in/atharva-pandhare/"
           className="fa fa-linkedin"
           aria-hidden="true"
           target="_blank"

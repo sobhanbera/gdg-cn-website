@@ -28,29 +28,20 @@ function ManagementTeam() {
             <h4 className="title">Content Writing | digital creation | leadership | Python | AWS | SQL</h4>
           </div>
           <div className="social">
-            <a
-              href="facebook.com"
-              className="fa fa-facebook"
-              aria-hidden="true"
-              target="_blank"
-            ></a>
+          <a
+          href="https://github.com/samikshakachore?tab=stars"
+          className="fa fa-github"
+          aria-hidden="true"
+          target="_blank"
+        ></a>
 
-            <a
-              href="github.com"
-              className="fa"
-              aria-hidden="true"
-              target="_blank"
-            >
-              {" "}
-              {/* <Github className="fa" /> */}
-            </a>
-
-            <a
-              href="linkdin.com"
-              className="fa fa-linkedin"
-              aria-hidden="true"
-              target="_blank"
-            ></a>
+     
+        <a
+          href="https://www.linkedin.com/in/samiksha-kachore"
+          className="fa fa-linkedin"
+          aria-hidden="true"
+          target="_blank"
+        ></a>
           </div>
         </div>
 
@@ -64,29 +55,20 @@ function ManagementTeam() {
             <h4 className="title">-</h4>
           </div>
           <div className="social">
-            <a
-              href="facebook.com"
-              className="fa fa-facebook"
-              aria-hidden="true"
-              target="_blank"
-            ></a>
+          <a
+          href="https://github.com/ShreyaSS02"
+          className="fa fa-github"
+          aria-hidden="true"
+          target="_blank"
+        ></a>
 
-            <a
-              href="github.com"
-              className="fa"
-              aria-hidden="true"
-              target="_blank"
-            >
-              {" "}
-              {/* <Github className="fa" /> */}
-            </a>
-
-            <a
-              href="linkdin.com"
-              className="fa fa-linkedin"
-              aria-hidden="true"
-              target="_blank"
-            ></a>
+     
+        <a
+          href="https://www.linkedin.com/in/shreya-santoshwar-666447197"
+          className="fa fa-linkedin"
+          aria-hidden="true"
+          target="_blank"
+        ></a>
           </div>
         </div>
 
@@ -100,29 +82,20 @@ function ManagementTeam() {
             <h4 className="title">React.Js | Next.Js | Frontend Development</h4>
           </div>
           <div className="social">
-            <a
-              href="facebook.com"
-              className="fa fa-facebook"
-              aria-hidden="true"
-              target="_blank"
-            ></a>
+          <a
+          href="https://github.com/nenu3414"
+          className="fa fa-github"
+          aria-hidden="true"
+          target="_blank"
+        ></a>
 
-            <a
-              href="github.com"
-              className="fa"
-              aria-hidden="true"
-              target="_blank"
-            >
-              {" "}
-              {/* <Github className="fa" /> */}
-            </a>
-
-            <a
-              href="linkdin.com"
-              className="fa fa-linkedin"
-              aria-hidden="true"
-              target="_blank"
-            ></a>
+     
+        <a
+          href="https://linkedin.com/in/neenad-sahasrabuddhe-1017841a4/"
+          className="fa fa-linkedin"
+          aria-hidden="true"
+          target="_blank"
+        ></a>
           </div>
           {/* </div> */}
         </div>
