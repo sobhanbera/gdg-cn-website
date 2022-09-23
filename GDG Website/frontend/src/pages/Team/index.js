@@ -24,7 +24,7 @@ import PastTeam from "./Teams_field/PastTeam";
 const slider_img = [tempImg, tempImg];
 
 // const Fields = ["Core Team", "Web", "Design", "ML", "Blockchain", "App", "Management"];
-const Fields = ["Core Team", "Web", "Design", "Management"];
+const Fields = ["Community Manager", "Web Developer", "Graphic Designer ", "Content Writer"];
 const FieldPages = [
 	<CoreTeam />,
 	<WebTeam />,

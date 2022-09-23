@@ -107,10 +107,81 @@ function Events() {
 			{/* <EventCards2 upcoming={false} /> */}
 
 		
-			Yahah Pr paste karna
+			<div className="card_centered">
+        <div className="MemberCard_container">
+          {/* <div className="team-card"> */}
+          {/* <div className="picture"> */}
+          <img className="img-fluid" src="ww." />
+          {/* </div> */}
+          <div className="team-content">
+            <h3 className="name">Name</h3>
+            <h4 className="title">designation</h4>
+          </div>
+          <div className="social">
+            <a
+              href="facebook.com"
+              className="fa fa-facebook"
+              aria-hidden="true"
+              target="_blank"
+            ></a>
 
-			<div>erfgb</div>
-				
+            <a
+              href="github.com"
+              className="fa"
+              aria-hidden="true"
+              target="_blank"
+            >
+              {" "}
+              {/* <Github className="fa" /> */}
+            </a>
+
+            <a
+              href="linkdin.com"
+              className="fa fa-linkedin"
+              aria-hidden="true"
+              target="_blank"
+            ></a>
+          </div>
+        </div>
+
+        <div className="MemberCard_container">
+          {/* <div className="team-card"> */}
+          {/* <div className="picture"> */}
+          <img className="img-fluid" src="ww." />
+          {/* </div> */}
+          <div className="team-content">
+            <h3 className="name">Name</h3>
+            <h4 className="title">designation</h4>
+          </div>
+          <div className="social">
+            <a
+              href="facebook.com"
+              className="fa fa-facebook"
+              aria-hidden="true"
+              target="_blank"
+            ></a>
+
+            <a
+              href="github.com"
+              className="fa"
+              aria-hidden="true"
+              target="_blank"
+            >
+              {" "}
+              {/* <Github className="fa" /> */}
+            </a>
+
+            <a
+              href="linkdin.com"
+              className="fa fa-linkedin"
+              aria-hidden="true"
+              target="_blank"
+            ></a>
+          </div>
+          {/* </div> */}
+        </div>
+      </div>
+
 			<HeadingButton
 				LargeHeading="Interested in being a Speaker at one of our events?"
 				SmallHeading="Just drop us your Proposal."
