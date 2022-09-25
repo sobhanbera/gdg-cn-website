@@ -205,9 +205,9 @@ GDG prides itself on being an inclusive environment. Everyone and anyone interes
         ))}
       </div>
     </div>
-	<div className="What_we_do">
-<p className="What_we_do_heading">Our Partners</p></div>
-<div style={{margin:"auto"}}>
+	{/* <div className="What_we_do">
+<p className="What_we_do_heading">Our Partners</p></div> */}
+{/* <div style={{margin:"auto"}}>
 
 	
 	<div>
@@ -227,7 +227,7 @@ GDG prides itself on being an inclusive environment. Everyone and anyone interes
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/36/VNIT_logo.jpeg/220px-VNIT_logo.jpeg" style={{width:imagesize}} alt="" />
 
 	</div>
-</div>
+</div> */}
 		</section>
 	);
 
