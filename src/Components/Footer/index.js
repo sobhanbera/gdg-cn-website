@@ -47,7 +47,7 @@ function Footer() {
                 {/* </a> */}
               </p>
             </a>
-			<a className="contact_address" href="https://gdsc.community.dev/indian-institute-of-information-technology-allahabad-prayagraj/" target="_blank">
+			<a className="contact_address" href="https://gdg.community.dev/gdg-cloud-nagpur/" target="_blank">
 							<div className="contact_pin_icon" >
 								<img src={join_us_icon} alt="join us" />
 							</div>
@@ -68,7 +68,7 @@ function Footer() {
             <div className="contact_links">
               <div className="contact_icon">
                 <a
-                  href="https://www.instagram.com/gdsciiita/"
+                  href="https://www.instagram.com/gdgc_ngp/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -104,7 +104,7 @@ function Footer() {
               </div> */}
               <div className="contact_icon">
                 <a
-                  href="https://twitter.com/Gdsciiita"
+                  href="https://twitter.com/gdgc_ngp"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -113,22 +113,22 @@ function Footer() {
               </div>
               <div className="contact_icon">
                 <a
-                  href="https://www.linkedin.com/company/gdsciiita"
+                  href="https://www.linkedin.com/company/gdgcloud-nagpur/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img src={follow_icon_6} alt="LinkedIn" />
                 </a>
               </div>
-              <div className="contact_icon">
+              {/* <div className="contact_icon">
                 <a
-                  href="https://github.com/Elevate-Lab"
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img src={follow_icon_7} alt="Github" />
                 </a>
-              </div>
+              </div> */}
               {/* <div className="contact_icon">
                 <a
                   href="https://discord.com/invite/gv9zzDcQUH"
