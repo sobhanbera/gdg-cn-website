@@ -102,7 +102,7 @@ GDG prides itself on being an inclusive environment. Everyone and anyone interes
 			</div> */}
 
 			<div className="What_we_do">
-				<p className="What_we_do_heading">What GDG Nagpur does?</p>
+				<p className="What_we_do_heading">What GDG Cloud Nagpur does?</p>
 				<div className="What_we_do_cards">
 					<div className="What_we_do_card1">
 						<div className="What_we_do_card_img">
