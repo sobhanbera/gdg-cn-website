@@ -1,10 +1,10 @@
-*{
-  font-family: 'Open Sans','Poppins',sans-serif,'Montserrat';
+* {
+    font-family: 'Open Sans', 'Poppins', sans-serif, 'Montserrat';
 }
-p{
-  margin:0;
-  padding:0;
+p {
+    margin: 0;
+    padding: 0;
 }
 .App {
-  text-align: center;
+    text-align: center;
 }

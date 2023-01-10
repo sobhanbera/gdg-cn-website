@@ -1,89 +1,102 @@
-import React from "react";
+import React from 'react'
 // import {Typography} from '@material-ui/core'
-import { Link } from "react-router-dom";
-import About_DSC_Image from "../../Assets/About_DSC_Image.png";
-import About_DSC_IIITA_Image from "../../Assets/About_DSC_IIITA_Image.png";
-import Headings from "../../Components/Page_headings";
-import KnowMore_icon from "../../Assets/external-link.svg";
-import "./About.css";
-import what_we_do_card_img_1 from "../../Assets/What_we_do_Projects.svg";
-import what_we_do_card_img_2 from "../../Assets/What_we_do_Seminars.svg";
-import what_we_do_card_img_3 from "../../Assets/What_we_do_Hackathons.svg";
-import what_we_do_card_img_4 from "../../Assets/What_we_do_StudyJams.svg";
-import join_the_convo_img_1 from "../../Assets/Join_youtube.png";
-import join_the_convo_img_2 from "../../Assets/Join_discord.png";
-import aboutdsc from "../../Assets/Images/dsc2.png";
-import dsciiita from "../../Assets/Images/iiita.jpg";
+import {Link} from 'react-router-dom'
+import About_DSC_Image from '../../Assets/About_DSC_Image.png'
+import About_DSC_IIITA_Image from '../../Assets/About_DSC_IIITA_Image.png'
+import Headings from '../../Components/Page_headings'
+import KnowMore_icon from '../../Assets/external-link.svg'
+import './About.css'
+import what_we_do_card_img_1 from '../../Assets/What_we_do_Projects.svg'
+import what_we_do_card_img_2 from '../../Assets/What_we_do_Seminars.svg'
+import what_we_do_card_img_3 from '../../Assets/What_we_do_Hackathons.svg'
+import what_we_do_card_img_4 from '../../Assets/What_we_do_StudyJams.svg'
+import join_the_convo_img_1 from '../../Assets/Join_youtube.png'
+import join_the_convo_img_2 from '../../Assets/Join_discord.png'
+import aboutdsc from '../../Assets/Images/dsc2.png'
+import dsciiita from '../../Assets/Images/iiita.jpg'
 
-const colors = ["https://seeklogo.com/images/G/google-2015-logo-65BBD07B01-seeklogo.com.png", "https://jetbrains.com.xy2401.com/company/brand/img/logo4.svg"];
-const delay = 2500;
-
+const colors = [
+    'https://seeklogo.com/images/G/google-2015-logo-65BBD07B01-seeklogo.com.png',
+    'https://jetbrains.com.xy2401.com/company/brand/img/logo4.svg',
+]
+const delay = 2500
 
 function About() {
-	const imagesize = "17	0px"
-	const [index, setIndex] = React.useState(0);
-  const timeoutRef = React.useRef(null);
+    const imagesize = '17	0px'
+    const [index, setIndex] = React.useState(0)
+    const timeoutRef = React.useRef(null)
 
-  function resetTimeout() {
-    if (timeoutRef.current) {
-      clearTimeout(timeoutRef.current);
+    function resetTimeout() {
+        if (timeoutRef.current) {
+            clearTimeout(timeoutRef.current)
+        }
     }
-  }
 
-  React.useEffect(() => {
-    resetTimeout();
-    timeoutRef.current = setTimeout(
-      () =>
-        setIndex((prevIndex) =>
-          prevIndex === colors.length - 1 ? 0 : prevIndex + 1
-        ),
-      delay
-    );
+    React.useEffect(() => {
+        resetTimeout()
+        timeoutRef.current = setTimeout(
+            () =>
+                setIndex(prevIndex =>
+                    prevIndex === colors.length - 1 ? 0 : prevIndex + 1,
+                ),
+            delay,
+        )
 
-    return () => {
-      resetTimeout();
-    };
-  }, [index]);
+        return () => {
+            resetTimeout()
+        }
+    }, [index])
 
-	return (
-		<section
-			className="About_section"
-			style={{
-				width: "100%",
-				display: "flex",
-				flexDirection: "column",
-				paddingTop: "10.88vh",
-				paddingBottom: "6vh",
-				background: "#ffffff",
-			}}
-		>
-			<Headings
-				LargeHeading="About The Community"
-				SmallHeading="What we do and How we are so good at it... !"
-				Text=""
-				PageIllustration={""}
-			/>
+    return (
+        <section
+            className="About_section"
+            style={{
+                width: '100%',
+                display: 'flex',
+                flexDirection: 'column',
+                paddingTop: '10.88vh',
+                paddingBottom: '6vh',
+                background: '#ffffff',
+            }}>
+            <Headings
+                LargeHeading="About The Community"
+                SmallHeading="What we do and How we are so good at it... !"
+                Text=""
+                PageIllustration={''}
+            />
 
-			<div className="About_DSC About">
-				<img src={aboutdsc} alt="aboutdsc.jpg" style={{ boxShadow: "0px 0px 0px #ffe" }} />
+            <div className="About_DSC About">
+                <img
+                    src={aboutdsc}
+                    alt="aboutdsc.jpg"
+                    style={{boxShadow: '0px 0px 0px #ffe'}}
+                />
 
-				<div>
-					<p className="Abt_Heading">What's GDG?</p>
-					<p className="Abt_Content">
-					We are also in the pursuit of identifying the hurdles in our community that can be solved by code.
-					When you join a GDG, you’ll have the opportunity to meet local developers with similar interests in technology, attend talks on a wide range of technical topics, and learn new skills through hands-on workshops.
-GDG prides itself on being an inclusive environment. Everyone and anyone interested in tech - from beginner developers to experienced professionals are welcome to join.<br></br>
-						<br></br># Lets Learn, Grow and Innovate together.
-					</p>
-					<button>
-						<a href="https://gdg.community.dev/gdg-cloud-nagpur/" target="_blank">
-							<img src={KnowMore_icon} alt="Know More" />
-							Know More
-						</a>
-					</button>
-				</div>
-			</div>
-			{/* <div className="About About_DSC_IIITA">
+                <div>
+                    <p className="Abt_Heading">What's GDG?</p>
+                    <p className="Abt_Content">
+                        We are also in the pursuit of identifying the hurdles in
+                        our community that can be solved by code. When you join
+                        a GDG, you’ll have the opportunity to meet local
+                        developers with similar interests in technology, attend
+                        talks on a wide range of technical topics, and learn new
+                        skills through hands-on workshops. GDG prides itself on
+                        being an inclusive environment. Everyone and anyone
+                        interested in tech - from beginner developers to
+                        experienced professionals are welcome to join.<br></br>
+                        <br></br># Lets Learn, Grow and Innovate together.
+                    </p>
+                    <button>
+                        <a
+                            href="https://gdg.community.dev/gdg-cloud-nagpur/"
+                            target="_blank">
+                            <img src={KnowMore_icon} alt="Know More" />
+                            Know More
+                        </a>
+                    </button>
+                </div>
+            </div>
+            {/* <div className="About About_DSC_IIITA">
 				<img src={dsciiita} alt="dsciiita.jpg" target="_blank" />
 				<div>
 					<p className="Abt_Heading">About GDG Nagpur</p>
@@ -101,51 +114,61 @@ GDG prides itself on being an inclusive environment. Everyone and anyone interes
 				</div>
 			</div> */}
 
-			<div className="What_we_do">
-				<p className="What_we_do_heading">What GDG Cloud Nagpur does?</p>
-				<div className="What_we_do_cards">
-					<div className="What_we_do_card1">
-						<div className="What_we_do_card_img">
-							<img src={what_we_do_card_img_1} alt="Projects" />
-						</div>
-						<div className="What_we_do_card_text">
-							<p className="What_we_do_card_head">Projects</p>
-							<p className="What_we_do_card_desc">
-								Projects with a social impact that help a large part of society.
-							</p>
-						</div>
-					</div>
-					<div className="What_we_do_card2">
-						<div className="What_we_do_card_img">
-							<img src={what_we_do_card_img_2} alt="Seminars" />
-						</div>
-						<div className="What_we_do_card_text">
-							<p className="What_we_do_card_head">Seminars</p>
-							<p className="What_we_do_card_desc">Get updated with the latest Events and Hackathons.</p>
-						</div>
-					</div>
-					<div className="What_we_do_card3">
-						<div className="What_we_do_card_img">
-							<img src={what_we_do_card_img_3} alt="Hackathons" />
-						</div>
-						<div className="What_we_do_card_text">
-							<p className="What_we_do_card_head">Hackathons</p>
-							<p className="What_we_do_card_desc">Dream. Explore. Wonder. Build it Together.</p>
-						</div>
-					</div>
-					<div className="What_we_do_card4">
-						<div className="What_we_do_card_img">
-							<img src={what_we_do_card_img_4} alt="Study Jams" />
-						</div>
-						<div className="What_we_do_card_text">
-							<p className="What_we_do_card_head">Study Jams</p>
-							<p className="What_we_do_card_desc">Hands-on experience with the community members.</p>
-						</div>
-					</div>
-				</div>
-			</div>
+            <div className="What_we_do">
+                <p className="What_we_do_heading">
+                    What GDG Cloud Nagpur does?
+                </p>
+                <div className="What_we_do_cards">
+                    <div className="What_we_do_card1">
+                        <div className="What_we_do_card_img">
+                            <img src={what_we_do_card_img_1} alt="Projects" />
+                        </div>
+                        <div className="What_we_do_card_text">
+                            <p className="What_we_do_card_head">Projects</p>
+                            <p className="What_we_do_card_desc">
+                                Projects with a social impact that help a large
+                                part of society.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="What_we_do_card2">
+                        <div className="What_we_do_card_img">
+                            <img src={what_we_do_card_img_2} alt="Seminars" />
+                        </div>
+                        <div className="What_we_do_card_text">
+                            <p className="What_we_do_card_head">Seminars</p>
+                            <p className="What_we_do_card_desc">
+                                Get updated with the latest Events and
+                                Hackathons.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="What_we_do_card3">
+                        <div className="What_we_do_card_img">
+                            <img src={what_we_do_card_img_3} alt="Hackathons" />
+                        </div>
+                        <div className="What_we_do_card_text">
+                            <p className="What_we_do_card_head">Hackathons</p>
+                            <p className="What_we_do_card_desc">
+                                Dream. Explore. Wonder. Build it Together.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="What_we_do_card4">
+                        <div className="What_we_do_card_img">
+                            <img src={what_we_do_card_img_4} alt="Study Jams" />
+                        </div>
+                        <div className="What_we_do_card_text">
+                            <p className="What_we_do_card_head">Study Jams</p>
+                            <p className="What_we_do_card_desc">
+                                Hands-on experience with the community members.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-			{/* <div className="Join_the_convo">
+            {/* <div className="Join_the_convo">
 				<p className="Join_the_convo_heading" style={{ textAlign: "center" }}>
 					Join the Conversation
 				</p>
@@ -175,39 +198,39 @@ GDG prides itself on being an inclusive environment. Everyone and anyone interes
 				</div>
 			</div> */}
 
+            <div className="What_we_do">
+                <p className="What_we_do_heading">Our Sponsers</p>
+            </div>
+            <div className="slideshow">
+                <div
+                    className="slideshowSlider"
+                    style={{transform: `translate3d(${-index * 100}%, 0, 0)`}}>
+                    {colors.map((backgroundColor, index) => (
+                        <div
+                            className="slide"
+                            key={index}
+                            style={{backgroundColor}}>
+                            <img src={backgroundColor} alt="" />
+                        </div>
+                    ))}
+                </div>
 
-
-<div className="What_we_do">
-<p className="What_we_do_heading">Our Sponsers</p></div>
-<div className="slideshow">
-      <div
-        className="slideshowSlider"
-        style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
-      >
-        {colors.map((backgroundColor, index) => (
-          <div
-            className="slide"
-            key={index}
-            style={{ backgroundColor }}
-          ><img src={backgroundColor } alt="" /></div>
-        ))}
-      </div>
-
-      <div className="slideshowDots">
-        {colors.map((_, idx) => (
-          <div
-            key={idx}
-            className={`slideshowDot${index === idx ? " active" : ""}`}
-            onClick={() => {
-              setIndex(idx);
-            }}
-          ></div>
-        ))}
-      </div>
-    </div>
-	{/* <div className="What_we_do">
+                <div className="slideshowDots">
+                    {colors.map((_, idx) => (
+                        <div
+                            key={idx}
+                            className={`slideshowDot${
+                                index === idx ? ' active' : ''
+                            }`}
+                            onClick={() => {
+                                setIndex(idx)
+                            }}></div>
+                    ))}
+                </div>
+            </div>
+            {/* <div className="What_we_do">
 <p className="What_we_do_heading">Our Partners</p></div> */}
-{/* <div style={{margin:"auto"}}>
+            {/* <div style={{margin:"auto"}}>
 
 	
 	<div>
@@ -228,10 +251,8 @@ GDG prides itself on being an inclusive environment. Everyone and anyone interes
 
 	</div>
 </div> */}
-		</section>
-	);
-
-	
+        </section>
+    )
 }
 
-export default About;
+export default About

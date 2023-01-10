@@ -1,24 +1,26 @@
-import React from 'react';
-import heroleft from './Hero_left.svg';
+import React from 'react'
+import heroleft from './Hero_left.svg'
 
 function HeroLeft() {
-    return(
+    return (
         <div
             className="hero-section-left"
             style={{
-                position: 'relative'
+                position: 'relative',
             }}>
-            <object 
-                type="image/svg+xml" 
-                data={heroleft} 
-                style={{ 
+            <object
+                type="image/svg+xml"
+                data={heroleft}
+                style={{
                     zIndex: '-2',
                     position: 'absolute',
-                    top:'0',
-                    left:'0'
-                }}>Hero-left-animation</object>
+                    top: '0',
+                    left: '0',
+                }}>
+                Hero-left-animation
+            </object>
         </div>
-    );
+    )
 }
 
-export default HeroLeft;
+export default HeroLeft

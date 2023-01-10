@@ -1,10 +1,10 @@
-import { getThemeProps } from '@material-ui/styles';
-import React from 'react';
-import { Link } from 'react-router-dom';
-import Button from '@mui/material/Button';
-import './Headings_button.css';
+import {getThemeProps} from '@material-ui/styles'
+import React from 'react'
+import {Link} from 'react-router-dom'
+import Button from '@mui/material/Button'
+import './Headings_button.css'
 
-function HeadingButton({ LargeHeading, SmallHeading, bg,formLink, btnText }) {
+function HeadingButton({LargeHeading, SmallHeading, bg, formLink, btnText}) {
     return (
         <div className="Headings_Button_Container">
             <div className="Section_Headings">
@@ -19,11 +19,15 @@ function HeadingButton({ LargeHeading, SmallHeading, bg,formLink, btnText }) {
 			</div> */}
             <div className="Button">
                 <img src={bg} alt="GDSC IIITA" />
-                <a href={formLink} style={{ textDecoration: 'none'}} rel="noreferrer" target="_blank">
+                <a
+                    href={formLink}
+                    style={{textDecoration: 'none'}}
+                    rel="noreferrer"
+                    target="_blank">
                     {btnText}
                 </a>
             </div>
         </div>
-    );
+    )
 }
-export default HeadingButton;
+export default HeadingButton

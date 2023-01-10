@@ -1,33 +1,33 @@
-import * as React from 'react';
-import { useState } from 'react';
-import Box from '@mui/material/Box';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
-import Avatar from '@mui/material/Avatar';
-import styles from './TeamSpecialCard.module.css';
-import { ReactComponent as ViewProject } from '../../Assets/svg_link.svg';
-import { Link } from 'react-router-dom';
+import * as React from 'react'
+import {useState} from 'react'
+import Box from '@mui/material/Box'
+import Card from '@mui/material/Card'
+import CardActions from '@mui/material/CardActions'
+import CardContent from '@mui/material/CardContent'
+import Button from '@mui/material/Button'
+import Typography from '@mui/material/Typography'
+import Avatar from '@mui/material/Avatar'
+import styles from './TeamSpecialCard.module.css'
+import {ReactComponent as ViewProject} from '../../Assets/svg_link.svg'
+import {Link} from 'react-router-dom'
 // import Stack from "@mui/material/Stack";
-import person from '../../Assets/Images/person.png';
-import { ReactComponent as Twitter } from '../../Assets/twitter-filled.svg';
-import { ReactComponent as Github } from '../../Assets/github-filled.svg';
-import { ReactComponent as Linkedin } from '../../Assets/linkedin-filled.svg';
+import person from '../../Assets/Images/person.png'
+import {ReactComponent as Twitter} from '../../Assets/twitter-filled.svg'
+import {ReactComponent as Github} from '../../Assets/github-filled.svg'
+import {ReactComponent as Linkedin} from '../../Assets/linkedin-filled.svg'
 
 function TeamSpecialCard() {
-    const [admin, setAdmin] = useState(true);
+    const [admin, setAdmin] = useState(true)
     return (
         <div className={styles.cards_container}>
-            <Box className={styles.card} sx={{ minWidth: 275 }}>
-                <Card variant="outlined" style={{ borderRadius: 15 }}>
+            <Box className={styles.card} sx={{minWidth: 275}}>
+                <Card variant="outlined" style={{borderRadius: 15}}>
                     <CardContent>
                         <div className={styles.container}>
                             <div className={styles.img}>
                                 <Avatar
                                     src="https://i.ibb.co/HVR4MnL/vedant-Khairnar-copy-GDG-Cloud-Nagpur.jpg"
-                                    sx={{ width: 140, height: 140 }}
+                                    sx={{width: 140, height: 140}}
                                 />
                             </div>
                             <div className={styles.name}>
@@ -41,8 +41,7 @@ function TeamSpecialCard() {
                                         fontWeight: '600',
                                     }}
                                     color="#1B2733"
-                                    gutterBottom
-                                >
+                                    gutterBottom>
                                     Vedant khairnar
                                 </Typography>
                                 <Typography
@@ -53,8 +52,7 @@ function TeamSpecialCard() {
                                         fontFamily: 'Open Sans,sans-serif',
                                     }}
                                     color="#637282"
-                                    gutterBottom
-                                >
+                                    gutterBottom>
                                     GDG Lead
                                 </Typography>
                                 <Typography
@@ -65,18 +63,20 @@ function TeamSpecialCard() {
                                         fontFamily: 'Open Sans,sans-serif',
                                     }}
                                     color="#637282"
-                                    gutterTop
-                                >
+                                    gutterTop>
                                     Machine Learning | Salesforce | Kubernetes
                                 </Typography>
                             </div>
                             <div className={styles.social_icons}>
-                          
                                 {/* <a href="" className="fa fa-facebook" aria-hidden="true" target="_blank" width="px"></a> */}
-                                <a href="https://github.com/VedantKhairnar" target="_blank">
+                                <a
+                                    href="https://github.com/VedantKhairnar"
+                                    target="_blank">
                                     <Github width="25px" />
                                 </a>
-                                <a href="https://www.linkedin.com/in/vedantkhairnar/" target="_blank">
+                                <a
+                                    href="https://www.linkedin.com/in/vedantkhairnar/"
+                                    target="_blank">
                                     <Linkedin width="25px" />
                                 </a>
                             </div>
@@ -137,7 +137,7 @@ function TeamSpecialCard() {
                             <div className={styles.social_icons}>
                              */}
 
-                                {/* <a href="www.twitter.com">
+            {/* <a href="www.twitter.com">
                                     <Twitter width="25px" />
                                 </a>
                                 <a href="www.github.com">
@@ -146,13 +146,13 @@ function TeamSpecialCard() {
                                 <a href="www.linkedin.com">
                                     <Linkedin width="25px" />
                                 </a> */}
-                            {/* </div>
+            {/* </div>
                         </div>
                     </CardContent>
                 </Card>
             </Box> */}
         </div>
-    );
+    )
 }
 
-export default TeamSpecialCard;
+export default TeamSpecialCard

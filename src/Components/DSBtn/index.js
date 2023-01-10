@@ -1,11 +1,19 @@
 import React from 'react'
-import { makeStyles } from '@material-ui/core'
+import {makeStyles} from '@material-ui/core'
 import useViewport from '../../viewport/useViewport'
 
 function WEBBtn(props) {
     const {width} = useViewport()
 
-    const { backgroundColor, height, borderRadius, color, style, label, divStyle } = props
+    const {
+        backgroundColor,
+        height,
+        borderRadius,
+        color,
+        style,
+        label,
+        divStyle,
+    } = props
 
     const useStyles = makeStyles({
         button: {
@@ -21,8 +29,8 @@ function WEBBtn(props) {
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            whiteSpace: 'nowrap'
-        }
+            whiteSpace: 'nowrap',
+        },
     })
 
     const classes = useStyles()
