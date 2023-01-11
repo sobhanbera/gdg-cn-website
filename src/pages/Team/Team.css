@@ -1,4 +1,4 @@
-.Team_section {
+.team-container {
     padding-top: 10.88vh;
     padding-bottom: 12vh;
     background: #fafafa;
@@ -9,27 +9,29 @@
     background: #ffffff;
 }
 
-.Member-field {
-    width: 81.96%;
+.member-type-container {
+    /* width: 81.96%; */
     margin: 0 auto;
-    background: #f5f5f5;
-    filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+    background: #f5f5f5;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));
 }
 
-.Field-select {
+.member-type-wrapper {
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
-.Field-item {
+
+.member-type {
     width: max-content;
     text-decoration: none;
     padding: 3vh 6vh;
 }
-.field-link {
+
+.member-type-text {
     margin: 0;
     cursor: pointer;
     text-decoration: none;
@@ -39,16 +41,18 @@
     font-size: 1.1vw;
     line-height: 110%;
 }
-.field-selected {
+
+.member-type.selected-member-type {
     background: #156eff;
     border-radius: 4px;
     filter: drop-shadow(1px 0px 4px rgba(0, 0, 0, 0.15));
 }
-.field-selected > .field-link {
+
+.selected-member-type > .member-type-text {
     color: #ffffff;
 }
 
-.Member_cards_container {
+.member-card-container {
     width: 81.96%;
     margin: 0 auto;
 }
@@ -73,17 +77,17 @@
     .Team_section {
         align-items: center;
     }
-    .Member-field {
+    .member-type-container {
         width: 96%;
     }
-    .Field-item {
+    .member-type {
         padding: 1.8vw 2vw;
     }
-    .field-link {
+    .member-type-text {
         font-size: 14px;
         text-align: center;
     }
-    .Member_cards_container {
+    .member-card-container {
         width: 94%;
     }
     .Field_view {
@@ -92,22 +96,18 @@
     }
 }
 @media only screen and (max-width: 450px) {
-    .Member-field {
+    .member-type-container {
         width: 80%;
     }
-    .Field-select {
+    .member-type-wrapper {
         flex-wrap: wrap;
         justify-content: center;
         gap: 2vh;
     }
-    .Field-item {
+    .member-type {
         padding: 2.4vw 3vw;
     }
     .Field_view {
         gap: 6vh;
-    }
-    .Past-Member > h3 {
-        margin: 4rem;
-        font-size: 25px;
     }
 }

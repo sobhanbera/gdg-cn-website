@@ -4,20 +4,12 @@ import apiContext from '../../../ContextApi/ApiContext'
 
 function WebTeam() {
     const context = useContext(apiContext)
-    const {data, getAllData, getAttribute, getAllTeamData, teams, parameter} =
-        context
-    let attribute = 'teams'
+    const {getAttribute, getAllTeamData, teams, parameter} = context
     useEffect(() => {
         getAttribute(null)
         // getAllData();
         getAllTeamData()
     }, [parameter])
-
-    const webTeam =
-        teams &&
-        teams.filter(e => {
-            return e.designation === 'Web'
-        })
 
     return (
         <div className="card_centered">
@@ -75,6 +67,38 @@ function WebTeam() {
 
                     <a
                         href="https://www.linkedin.com/in/atharva-pandhare/"
+                        className="fa fa-linkedin"
+                        aria-hidden="true"
+                        target="_blank"></a>
+                </div>
+
+                {/* </div> */}
+            </div>
+
+            <div className="MemberCard_container">
+                {/* <div className="team-card"> */}
+                {/* <div className="picture"> */}
+                <img
+                    className="img-fluid"
+                    src="https://avatars.githubusercontent.com/u/50291544?s=400&u=1303ffe599af14f343ef8f377dd63267f7c2d6a9&v=4"
+                />
+                {/* </div> */}
+                <div className="team-content">
+                    <h3 className="name">Sobhan Bera</h3>
+                    <h4 className="title">
+                        Open Source Contributor | Full Stack Web/Android
+                        Developer
+                    </h4>
+                </div>
+                <div className="social">
+                    <a
+                        href="https://github.com/sobhanbera"
+                        className="fa fa-github"
+                        aria-hidden="true"
+                        target="_blank"></a>
+
+                    <a
+                        href="https://www.linkedin.com/in/sobhanbera"
                         className="fa fa-linkedin"
                         aria-hidden="true"
                         target="_blank"></a>
